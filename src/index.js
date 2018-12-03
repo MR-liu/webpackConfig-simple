@@ -4,9 +4,10 @@ import './index.scss'
 // import {
 //   Button
 // } from 'lzj';
-import {
-  Button
-} from '../lib/index';
+
+// var Components = require('../lib/index');
+// let Button = Components.Button;
+import Button from '../lib/index';
 
 class App extends React.Component {
   render() {
